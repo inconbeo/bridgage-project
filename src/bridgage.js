@@ -1,5 +1,5 @@
 const { events } = require("brigadier")
 
-events.on("exec", (brigadeEvent, project) => {
+events.on("exec", (e, p) => {
   console.log("Hello from brig!")
 })
