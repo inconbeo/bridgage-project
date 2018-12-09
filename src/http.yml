@@ -1,0 +1,11 @@
+project: "inconbeo/bridgage-project"
+repository: "github.com/inconbeo/bridgage-project"
+cloneURL: "https://github.com/inconbeo/bridgage-project.git"
+# Used by GitHub to compute hooks.
+# MAKE SURE YOU CHANGE THIS. It's basically a password.
+sharedSecret: "anhyeungan293"
+# Use this to have Brigade update your project about the build.
+# You probably want this if you want pull requests or commits to show
+# the build status.
+github:
+  token: "533fdc6859c62141630c1883424ab1171b964c02"
